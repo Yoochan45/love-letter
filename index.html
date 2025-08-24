@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>HELLO</h1>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">HOW</a></li>
+                <li><a href="#">ARE</a></li>
+                <li><a href="#">YOU</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="space"></div>
+    <main>
+        <div class="box">
+            <div class="a box1"><h1 class="text">Maaf ya, aku sering ga peka sama perasaanmu.</h1></div>
+            <div class="a box2"><h1 class="text">Aku terlalu cuek, biarin kamu excited sendirian.</h1></div>
+            <div class="a box3"><h1 class="text">Kadang aku sadar, bikin kamu ngerasa sendiri.</h1></div>
+            <div class="a box4"><h1 class="text">Tapi deep down, aku care, cuma ga pandai nunjukin.</h1></div>
+        </div>
+        <div class="box">
+            <div class="a box1"><h1 class="text">Thank you udah selalu ada buat aku.</h1></div>
+            <div class="a box2"><h1 class="text">Kamu baik banget, sabar dengerin curhatku.</h1></div>
+            <div class="a box3"><h1 class="text">You make me feel seen, even when I’m lost.</h1></div>
+            <div class="a box4"><h1 class="text">I love you, lebih dari kata-kata bisa bilang.</h1></div>
+        </div>
+        <div class="box">
+            <div class="a box1"><h1 class="text">Aku nyesel ga bisa jadi yang kamu butuhin.</h1></div>
+            <div class="a box2"><h1 class="text">Tapi hatiku selalu nyimpen ruang buatmu.</div>
+            <div class="a box3"><h1 class="text">In another life, I wish I could be the one who holds you.</h1></div>
+            <div class="a box4"><h1 class="text">I wish I could truly call you mine.</h1></div>
+        </div>
+    </main>
+    <div class="video-section">
+        <h2>Dengerin lagu ini yaa</h2>
+        <p>Aku ga bisa nyanyi jadi aku kasih video ini aja</p>
+        <div class="video-container">
+            <video controls>
+                <source src="video.mp4" type="video/Sayap Pelindungmu.mp4">
+                <source src="video.webm" type="video/Sayap Pelindungmu.webm">
+                Browser kamu tidak support video.
+            </video>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Created by Yoochan</h3>
+        <h3>For Lexie</h3>
+    </footer>
+    <script>
+        document.querySelectorAll('.a').forEach(box => {
+        box.addEventListener('click', function() {
+        this.classList.toggle('clicked');
+        });
+    });
+    </script>
+</body>
+</html>
